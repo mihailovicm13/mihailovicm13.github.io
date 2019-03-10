@@ -1,7 +1,14 @@
 body {
   background: #EFF2FB;
   margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: georgia;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
 }
 
 a {
@@ -187,4 +194,8 @@ footer {
   padding: 30px;
   clear: both;
   float: right;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  height: 60px;
 }
