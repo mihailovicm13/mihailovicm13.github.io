@@ -36,7 +36,7 @@ sssssss {
 
 nav ul li {
   list-style-type: none;
-  display: block;
+  justify-content: center;
   width: 27%;
   margin-left: 1%;
   margin-right: 1%;
@@ -50,6 +50,11 @@ nav ul li {
   border-style: solid;
   border-radius: 5px;
   border-color: #151515;
+}
+
+.navbars {
+  position: relative;
+  left: 27%;
 }
 
 .row {}
@@ -184,7 +189,9 @@ nav ul li {
 }
 
 footer {
-  padding: 30px;
-  clear: both;
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  transform: translateX(-50%);
   float: right;
 }
