@@ -2,6 +2,7 @@ body {
   background: #EFF2FB;
   margin: 0;
   font-family: georgia;
+  overflow-x: hidden;
 }
 
 a {
