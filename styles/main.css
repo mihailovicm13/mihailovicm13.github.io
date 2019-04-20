@@ -76,6 +76,7 @@ nav ul li {
   border-style: solid;
   border-radius: 5px;
   border-color: #151515;
+  overflow: auto;
 }
 
 .hd {
@@ -99,7 +100,6 @@ nav ul li {
   border-style: solid;
   border-radius: 5px;
   border-color: #151515;
-  overflow: auto;
 }
 
 .hd h1 {
