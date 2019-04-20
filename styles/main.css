@@ -7,7 +7,6 @@ body {
   margin: 0;
   font-family: georgia;
   overflow-x: hidden;
-  position: relative;
 }
 
 a {
@@ -106,6 +105,7 @@ nav ul li {
   border-style: solid;
   border-radius: 5px;
   border-color: #151515;
+  overflow: auto;
 }
 
 .hd h1 {
