@@ -201,6 +201,14 @@ nav ul li {
   margin-top: 12.5%;
 }
 
+.nobox {
+  font-size: 350%;
+  color: #2b2a3a;
+  margin-left: 2.5%;
+  margin-bottom: .2em;
+  margin-top: .7em;
+}
+
 footer {
   position: absolute;
   bottom: -75px;
